@@ -2,14 +2,38 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Comverse</title>
+    <title>comverse</title>
     <style>
-        .wrapper{margin:0 auto;width:800px;border:solid 1px indianred;height:80px;}
+        body{font-family: sans-serif;font-size:14px}
+        .wrapper{margin:0 auto;width:960px;}
+        .header{position:relative;height:65px}
+
+        .top-menu{display:inline-block}
+        .top-menu ul{margin:0;padding:0;}
+        .top-menu ul li{list-style: none; margin:0;display: inline-block;padding:0px 12px;cursor:pointer}
+        .top-menu li{color:gray}
+        .top-menu li div{display:none;border:1px solid darkred;width:960px;height:350px;position:absolute;left:0;top:65px}
+        .top-menu li:hover div{display:block}
+        .header-right-container{position:absolute;right:0;border:solid 1px darkred;width:200px;height:60px;top:0}
+
     </style>
 </head>
 <body>
     <header>
-        <div class="wrapper"></div>
+        <div class="wrapper header">
+            <img class="logo" src="/converse/images/comverse-logo.png" alt="Comverse" >
+            <nav class="top-menu">
+                <ul>
+                    <li>YOUR NEEDS <div>YOUR NEEDS</div></li>
+                    <li>OUR PORTFOLIO <div>OUR PORTFOLIO</div></li>
+                    <li>NEWS & MEDIA <div>NEWS & MEDIA</div></li>
+                    <li>ABOUT COMVERSE <div>ABOUT COMVERSE</div></li>
+                </ul>
+            </nav>
+            <div class="header-right-container">
+
+            </div>
+        </div>
     </header>
     <section>
         <div class="wrapper"></div>
